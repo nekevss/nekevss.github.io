@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,9 @@ export default function Home() {
           <li>{"Zig (Beginner, but am going to learn more)"}</li>
         </ul>
       </div>
+      <Head>
+        <title>{"Home | nekevss"}</title>
+      </Head>
     </div>
   )
 }
