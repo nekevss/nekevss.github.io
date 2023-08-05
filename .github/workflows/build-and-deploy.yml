@@ -6,16 +6,13 @@ on:
   push:
     branches: [ main ]
 
-permissions: read-all|write-all
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    permissions:
+      content: write
     steps:
       - uses: actions/checkout@v2
-        with:
-          lfs: true
       - uses: actions/setup-node@v2
         with:
           # update the Node version to meet your needs
@@ -28,8 +25,7 @@ jobs:
           touch out/.nojekyll
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          token: ${{ secrets.TOKEN }}
-          branch: gh-pages
-          folder: out
+          publish_dir: ./out
+          github_token: ${{ secrets.GITHUB_TOKEN }}
