@@ -3,6 +3,7 @@ import Link from "next/link";
 const navigation = [
     { name: 'Home', href: '/'},
     { name: 'Blog', href: '/blog'},
+    { name: 'Boa Debugger', href: 'https://nekevss.github.io/boa-debugger'},
     { name: "Github", href: "https://github.com/nekevss"}
 ]
 
