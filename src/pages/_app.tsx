@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
+import Head from 'next/head'
 import Layout from '@/layout/SiteLayout'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
