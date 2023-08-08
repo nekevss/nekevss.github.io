@@ -9,7 +9,7 @@ type BlogProps = {
 
 export default function Blog(props: BlogProps) {
     return (
-        <div className={`flex min-h-screen flex-col items-center justify-between p-24`}>
+        <div className={`flex min-h-screen flex-col items-center justify-between p-6 lg:p-24`}>
             <Head>
                 <title>{"Blog | nekevss"}</title>
             </Head>
