@@ -1,10 +1,12 @@
 import * as matter from "gray-matter";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
-import remarkHtml from "remark-html";
 import path from "path";
 import fs from "fs";
 import { Post, convertToMeta } from "@/lib/utils";
+import remarkRehype from "remark-rehype";
+import rehypeStringify from "rehype-stringify";
+import rehypeHighlight from "rehype-highlight";
 
 const workingDir = process.cwd();
 const blogDirectory = path.join(workingDir, "blog");
@@ -50,14 +52,16 @@ export async function getBlogEntryBySlug(id: string) {
     const targetPath = retrieveFilePath(id)
     const {data, content} = matter.read(targetPath)
 
-    const remarkedContent = await unified()
+    const rehypedContent = await unified()
         .use(remarkParse)
-        .use(remarkHtml)
+        .use(remarkRehype)
+        .use(rehypeHighlight)
+        .use(rehypeStringify)
         .process(content);
 
     const meta = convertToMeta(data);
 
-    return {meta, content: String(remarkedContent)};
+    return {meta, content: String(rehypedContent)};
 }
 
 
