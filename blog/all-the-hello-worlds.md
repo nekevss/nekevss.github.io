@@ -3,13 +3,11 @@ title: An Abundance of Hello World's
 date: 8/10/2023
 ---
 
-# All the Hello Worlds
-
 Let's write some hello world's in a bunch of languages that I might be posting on. Why? Well I
 definitely am not using this blog to test `pre` tag handlings and code themeing at all ... nothing
 to see here.
 
-### Rust
+## Rust
 
 ```rust
 
@@ -19,7 +17,7 @@ fn main() {
 
 ```
 
-### JavaScript
+## JavaScript
 
 ```javascript
 
@@ -30,7 +28,7 @@ fn main() {
 
 ```
 
-### Go
+## Go
 
 ```go
 
@@ -40,7 +38,7 @@ func main() {
 
 ```
 
-### Python
+## Python
 
 ```python
 
@@ -49,7 +47,7 @@ print("Hello World!")
 
 ```
 
-### C
+## C
 
 ```c
 

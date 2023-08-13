@@ -3,8 +3,6 @@ title: Call Me a Convert (Next.js Part 2)
 date: 8/6/2023
 ---
 
-# Next.js Part 2
-
 Huh, well who would've thought that. I used Next.js again...literally right after I got finished writing a blog about
 how cumbersome it was. Sometimes it really is better to just not open up your mouth too soon or don't count your eggs
 before they hatch, or any other euphemism that may work.
@@ -21,7 +19,7 @@ setup a site to explain JS's call stack. It was really cool in the presentation,
 there anymore. It was disappointing to say the least, but it also really made me want to try building something similiar. Of
 course, this all went on the back burner.
 
-### And time passed.
+### And time passed
 
 Life can be hectic sometimes. And things that are put on the back burner can really start to disappear, which was the case
 with trying to reimplement that call stack tool. And then, someone offered to make a new website for Boa, complete with
@@ -46,52 +44,56 @@ into how a JS Engine functions, and (5) it's just really, really, really f-ing c
 Oh no, I'm ranting on an aside. Okay well maybe look forward to a completely different blog post on that. Basically,
 I got a shot of adrenaline to try and do that work again.
 
-The plan was simple: first, create a github.io dev site; second, refactor boa's trace functionality and expose it to the WASM package;
-and finally, build the tool and deploy it to `gh-pages` from the main site.
+The plan was simple: first, create a github.io dev site; second, refactor boa's trace functionality and expose it to
+the WASM package; and finally, build the tool and deploy it to `gh-pages` from the main site.
 
-So I began on a Wednesday hoping to get a quick Markdown blog up and running in about a day and then spend my weekend working on
-the project with the goal of finishing before weekend was up.
+So I began on a Wednesday hoping to get a quick Markdown blog up and running in about a day and then spend my weekend
+working on the project with the goal of finishing before weekend was up.
 
 ...
 
 It was with that mindset that I ran face first into the wall that was Next.js.
 
-I had heard great things about Next and had seen it thrown around quite often in some YouTube videos, so I thought it would be a
-great option to put up the site quickly.
+I had heard great things about Next and had seen it thrown around quite often in some YouTube videos, so I thought it
+would be a great option to put up the site quickly.
 
-Yes, I know I could have just done Jekyll. Yes, that ultimately probably would've been faster. But "to hell with Ruby", was my thought
-at the time. "I was just working on adding some functionality to a Docusaurus site, and that was painless to pick up. How bad could Next be."
+Yes, I know I could have just done Jekyll. Yes, that ultimately probably would've been faster. But "to hell with Ruby",
+was my thought at the time. "I was just working on adding some functionality to a Docusaurus site, and that was
+painless to pick up. How bad could Next be."
 
-All of a sudden there were mentions of Layouts, relatively uninformative docs that only technically cover ".jsx" and gloss over ".tsx". And
-to top it off, I added on trying out Tailwindcss to the entire experience.
+All of a sudden there were mentions of Layouts, relatively uninformative docs that only technically cover ".jsx" and
+gloss over ".tsx". And to top it off, I added on trying out Tailwindcss to the entire experience.
 
-Aside: It would be an understatement to say that the documentation may really and trully be holding Next.js back. I don't know if their
-Tech Writers aren't being supported by Vercel or they just really and truly don't care about their docs. Probably the latter given the
-qualifications I've seen on recent job postings (written with a large degree of salt).
+Aside: It would be an understatement to say that the documentation may really and trully be holding Next.js back. I
+don't know if their Tech Writers aren't being supported by Vercel or they just really and truly don't care about
+their docs. Probably the latter given the qualifications I've seen on recent job postings (written with a large degree
+of salt).
 
 ### Positivity Incoming
 
 I solemnly swear I'm going to write something good about Next.js.
 
-To fast forward some (just go read my other blog for context here), I make it through creating and deploying the site, and I'm mostly just
-annoyed. But the thing is that towards the end, it all started to make a little sense: oh, here's where I can use normal React vs. Next's framework;
-oh wow, Tailwindcss is really nice...like really nice...this is supported out of the box?
+To fast forward some (just go read my other blog for context here), I make it through creating and deploying the site,
+and I'm mostly just annoyed. But the thing is that towards the end, it all started to make a little sense: oh, here's
+where I can use normal React vs. Next's framework; oh wow, Tailwindcss is really nice...like really nice...this is
+supported out of the box?
 
-There are definitely parts that, even now, I'm apprehensive about. I also don't think I really by into the `app` router and
-server-side rendering. But on the other side of that, I get a pretty neat and intuitive page router, Tailwindcss basically out
-of the box, and -- well -- React.
+There are definitely parts that, even now, I'm apprehensive about. I also don't think I really by into the `app` router
+and server-side rendering. But on the other side of that, I get a pretty neat and intuitive page router, Tailwindcss
+basically out of the box, and -- well -- React.
 
 I guess what I'm basically saying is: Next.js is kinda conveneint and easy to getting up off the ground and running.
 
 ### The Real Truth
 
-So I had actually made a rather greedy plan: I was going to make the core dev/blog site in Next, and then try out Solid.js or Svelte for the new
-Debugger.
+So I had actually made a rather greedy plan: I was going to make the core dev/blog site in Next, and then try out
+Solid.js or Svelte for the new Debugger.
 
-That was the plan, so I spent the better portion of Saturday afternoon outfitting a branch on my local clone of Boa and got the hooks working.
+That was the plan, so I spent the better portion of Saturday afternoon outfitting a branch on my local clone of Boa and
+got the hooks working.
 
-All that was left was to make the actually site/web app. So I loaded up solid-start, played around with the fundementals a bit, and then went to
-go download monaco-editor.
+All that was left was to make the actually site/web app. So I loaded up solid-start, played around with the fundamentals
+a bit, and then went to go download monaco-editor.
 
 ...that was in React.
 
@@ -105,7 +107,8 @@ I was left with two options: try out Svelte or just load the thing into Next/Rea
 
 This right here is where I surprised myself.
 
-Quite honestly, I should have thought: damn, solid won't work for this one, but that means I can try out Svelte, so no harm.
+Quite honestly, I should have thought: damn, solid won't work for this one, but that means I can try out Svelte, so
+no harm.
 
 But what I really thought is: huh, I can just load this up in a new Next app and put together in no time.
 

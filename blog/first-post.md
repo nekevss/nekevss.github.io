@@ -8,5 +8,3 @@ Blog Home.
 Hi! Welcome to my blog.
 
 I don't actually expect to be writing that much, but having one available is nice.
-
-
