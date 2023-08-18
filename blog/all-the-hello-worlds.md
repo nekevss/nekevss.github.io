@@ -59,3 +59,18 @@ int main() {
 }
 
 ```
+
+## Zig
+
+```zig
+
+// To be honest, still not sure whether `std` or `print` import is best.
+const print = @import("std").debug.print;
+
+pub fn main() void {
+    print("Hello World!" .{});
+}
+
+```
+
+Edit: Added Zig after I found the library
