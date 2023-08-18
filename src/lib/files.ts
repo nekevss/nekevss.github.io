@@ -10,7 +10,7 @@ import rehypeHighlight from "rehype-highlight";
 
 // TODO: handle `highlightjs-zig` better.
 // This is so cursed: manually changed `highlightjs-zig` to es5 module to get the below to work.
-import { hljsZig } from "highlightjs-zig";
+import { hljsZig } from "@/vendor/highlightjs-zig/src/languages/zig";
 
 const workingDir = process.cwd();
 const blogDirectory = path.join(workingDir, "blog");
