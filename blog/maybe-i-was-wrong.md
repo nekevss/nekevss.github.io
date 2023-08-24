@@ -110,7 +110,7 @@ This right here is where I surprised myself.
 Quite honestly, I should have thought: damn, solid won't work for this one, but that means I can try out Svelte, so
 no harm.
 
-But what I really thought is: huh, I can just load this up in a new Next app and put together in no time.
+But what I really thought is: huh, I can just load this up in a new Next app and put this page together in no time.
 
 And so, I did.
 
@@ -118,11 +118,12 @@ And so, I did.
 
 And so, I guess I'm a convert.
 
-Yes, I can actually see myself using Next.js again. Hell, it may even be my go to for the forseeable future.
+Yes, I can actually see myself using Next.js again. It may even be my go to for the forseeable future.
 
 Do I think it's perfect? No, and I'll keep looking out for something else.
 
-Maybe, Solid's ecosystem will get better or this project wasn't well suited towards its strengths.
+Maybe, Solid's ecosystem will get better or this project wasn't well suited towards Solid's strengths (skill
+issue is also on the table).
 
 Maybe, I'll try Svelte and it's will make me want to never touch React again like Tailwind has made
 me never want to touch Sass again.

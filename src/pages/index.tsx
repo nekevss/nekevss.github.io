@@ -13,7 +13,7 @@ export default function Home() {
           {"I like programming, games, and nature (hiking, camping, and whatever). As you might guess, two of those things sort of get in the way of the other. 🤣"}
         </p>
         <p className='my-4'>
-          {"Anyways, this personal site/blog is going to remain pretty bare bones right now. For a couple reasons: (1) I like the ideas of a minimal and elegant aesthetic, and (2) I'm hoping to use this site more as a staging ground/entry point for some other projects or ideas."}
+          {"Anyways, this personal site/blog is going to remain pretty bare bones right now. For a couple reasons: (1) I like the idea of a minimal and elegant aesthetic, and (2) I'm hoping to use this site more as a staging ground/entry point for some other projects or ideas."}
         </p>
         <h3 className='my-4'>{"Here are some programming languages I've played around with:"}</h3>
         <ul className='list-disc list-inside'>
