@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const { colors } = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -13,6 +15,13 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'theme': 'var(--theme-background)',
+      'yellow': colors.yellow,
+      'lime': colors.lime,
+    }
   },
   plugins: [],
 }
