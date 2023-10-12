@@ -13,7 +13,7 @@ inital green hue theme:
 
 @layer base {
   :root {
-    --foreground-rgb: 0, 0, 0;
+    --foreground-rgb: #ece6da;
     --background-start-rgb: 47, 53, 67;
     --background-end-rgb: 28, 31, 35;
 
