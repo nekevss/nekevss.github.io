@@ -16,7 +16,7 @@ export default function MarkdownDiplay(props: MarkdownDisplayProps) {
         ["h3", "class", "text-lg font-bold text-center my-8"],
         ["p", "class", "my-6"],
         ["code", "class", "bg-theme rounded-sm font-mono px-1",],
-        ["pre", "class", "w-full bg-theme rounded-lg font-mono py-1 px-3"]
+        ["pre", "class", "w-full whitespace-pre-wrap bg-theme rounded-lg font-mono py-1 px-3"]
     ])
 
     return (
