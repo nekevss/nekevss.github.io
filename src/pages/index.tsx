@@ -10,19 +10,18 @@ export default function Home() {
         <h1 className='text-4xl my-6'>{"Hi! My name's Kevin."}</h1>
         <h2 className="text-2xl my-4">{"A little bit about me:"}</h2>
         <p className='my-4'>
-          {"I like programming, games, and nature (hiking, camping, and whatever). As you might guess, two of those things sort of get in the way of the other. 🤣"}
+          {"I like programming, games, and nature. As you might guess, two of those things sort of get in the way of the other. Always looking to learn more and challenge myself."}
         </p>
         <p className='my-4'>
-          {"Anyways, this personal site/blog is going to remain pretty bare bones right now. For a couple reasons: (1) I like the idea of a minimal and elegant aesthetic, and (2) I'm hoping to use this site more as a staging ground/entry point for some other projects or ideas."}
+          {"Anyways, this portfolio site/blog is going to remain pretty bare bones right now. For a couple reasons: (1) I like the idea of a more minimal and elegant aesthetic, and (2) I'm hoping to use this site more as a staging ground/entry point for some other projects or ideas."}
         </p>
-        <h3 className='my-4'>{"Here are some programming languages I'm familiar with:"}</h3>
+        <h3 className='my-4'>{"Here's a non-exhaustive list of languages I'm familiar with:"}</h3>
         <ul className='list-disc list-inside'>
           <li>{"Rust"}</li>
           <li>{"JavaScript/TypeScript"}</li>
           <li>{"VBA"}</li>
           <li>{"Golang"}</li>
           <li>{"Python"}</li>
-          <li>{"C"}</li>
         </ul>
       </div>
       <Head>
