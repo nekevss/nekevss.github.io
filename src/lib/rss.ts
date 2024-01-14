@@ -4,7 +4,7 @@ import { Feed } from "feed";
 
 // Adapting from next.config.js
 const isGithubActions = process.env.GITHUB_ACTIONS || false
-const siteURL = isGithubActions ? "https://nekevss.github.io" : "";
+export const siteURL = isGithubActions ? "https://nekevss.github.io" : "";
 
 export async function createRssFeed() {
     const blogPosts = await getBlogEntries();
