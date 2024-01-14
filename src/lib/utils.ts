@@ -8,10 +8,12 @@ export type Post = {
 export type Metadata = {
     title: string,
     date: string,
+    summary: string,
 }
 
 export function convertToMeta(unmapped: any): Metadata {
-    const title = String(unmapped["title"])
+    const title = String(unmapped["title"]);
     const date = String(unmapped["date"]);
-    return { title, date }
+    const summary = String(unmapped["summary"]);
+    return { title, date, summary }
 }

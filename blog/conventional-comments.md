@@ -1,6 +1,7 @@
 ---
 title: Let's talk about Conventional Comments
 date: 10/16/2023
+summary: Conventional Comments are actually kind of nice.
 ---
 
 While exploring GitHub repositories and their `README.md`s, you come across various concepts and

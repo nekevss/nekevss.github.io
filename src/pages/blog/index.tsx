@@ -1,5 +1,6 @@
 import BlogCard from "@/components/BlogCard";
 import { getBlogCardData } from "@/lib/files";
+import { createRssFeed } from "@/lib/rss";
 import { Post } from "@/lib/utils";
 import Head from "next/head";
 
@@ -27,6 +28,7 @@ export default function Blog(props: BlogProps) {
 
 export async function getStaticProps() {
     const posts: Post[] = getBlogCardData()
+    await createRssFeed();
 
     return {
         props: {

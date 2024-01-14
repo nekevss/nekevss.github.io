@@ -1,6 +1,7 @@
 ---
 title: Next.js Blog Experience
 date: 8/4/2023
+summary: My experience with Next.js
 ---
 
 So I'll be honest, I'm a bit late to the game when it comes to Next.js. Just about everyone is already moving on to the

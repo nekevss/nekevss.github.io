@@ -1,6 +1,7 @@
 ---
 title: An Abundance of Hello World's
 date: 8/10/2023
+summary: Test post for syntax highlighting.
 ---
 
 Let's write some hello world's in a bunch of languages that I might be posting on. Why? Well I

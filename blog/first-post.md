@@ -1,6 +1,7 @@
 ---
 title: My First Post
 date: 8/3/2023
+summary: Hello World, the blog post.
 ---
 
 Blog Home.

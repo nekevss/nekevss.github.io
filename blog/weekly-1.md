@@ -1,6 +1,7 @@
 ---
 title: Weekly Update 1
 date: 8/24/2023
+summary: A weekly update on things
 ---
 
 I'm going to try and write a post like this every week or two. Why? As personal encouragement

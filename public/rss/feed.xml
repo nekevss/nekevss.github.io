@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Nekevss' Blog</title>
+        <link></link>
+        <description>Random blogging and things that interest me.</description>
+        <lastBuildDate>Sun, 14 Jan 2024 20:57:56 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Nekevss' Blog</title>
+            <url>./images/favicon.ico</url>
+            <link></link>
+        </image>
+        <copyright>All rights reserved 2024, Kevin Ness</copyright>
+        <item>
+            <title><![CDATA[Let's talk about Conventional Comments]]></title>
+            <link>/blog/conventional-comments</link>
+            <guid>/blog/conventional-comments</guid>
+            <pubDate>Mon, 16 Oct 2023 04:00:00 GMT</pubDate>
+            <description><![CDATA[Conventional Comments are actually kind of nice.]]></description>
+            <author>nekevss@gmail.com (Kevin Ness)</author>
+        </item>
+        <item>
+            <title><![CDATA[So it's been a while]]></title>
+            <link>/blog/weekly-2</link>
+            <guid>/blog/weekly-2</guid>
+            <pubDate>Wed, 04 Oct 2023 04:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly update...a month delayed]]></description>
+            <author>nekevss@gmail.com (Kevin Ness)</author>
+        </item>
+        <item>
+            <title><![CDATA[Weekly Update 1]]></title>
+            <link>/blog/weekly-1</link>
+            <guid>/blog/weekly-1</guid>
+            <pubDate>Thu, 24 Aug 2023 04:00:00 GMT</pubDate>
+            <description><![CDATA[A weekly update on things]]></description>
+            <author>nekevss@gmail.com (Kevin Ness)</author>
+        </item>
+        <item>
+            <title><![CDATA[An Abundance of Hello World's]]></title>
+            <link>/blog/all-the-hello-worlds</link>
+            <guid>/blog/all-the-hello-worlds</guid>
+            <pubDate>Thu, 10 Aug 2023 04:00:00 GMT</pubDate>
+            <description><![CDATA[Test post for syntax highlighting.]]></description>
+            <author>nekevss@gmail.com (Kevin Ness)</author>
+        </item>
+        <item>
+            <title><![CDATA[Call Me a Convert (Next.js Part 2)]]></title>
+            <link>/blog/maybe-i-was-wrong</link>
+            <guid>/blog/maybe-i-was-wrong</guid>
+            <pubDate>Sun, 06 Aug 2023 04:00:00 GMT</pubDate>
+            <description><![CDATA[Coping about coming to like Next.js]]></description>
+            <author>nekevss@gmail.com (Kevin Ness)</author>
+        </item>
+        <item>
+            <title><![CDATA[Next.js Blog Experience]]></title>
+            <link>/blog/next-js-exeperience</link>
+            <guid>/blog/next-js-exeperience</guid>
+            <pubDate>Fri, 04 Aug 2023 04:00:00 GMT</pubDate>
+            <description><![CDATA[My experience with Next.js]]></description>
+            <author>nekevss@gmail.com (Kevin Ness)</author>
+        </item>
+        <item>
+            <title><![CDATA[My First Post]]></title>
+            <link>/blog/first-post</link>
+            <guid>/blog/first-post</guid>
+            <pubDate>Thu, 03 Aug 2023 04:00:00 GMT</pubDate>
+            <description><![CDATA[Hello World, the blog post.]]></description>
+            <author>nekevss@gmail.com (Kevin Ness)</author>
+        </item>
+    </channel>
+</rss>

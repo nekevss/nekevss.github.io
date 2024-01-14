@@ -6,7 +6,7 @@ const assetPrefix = isGithubActions ? "https://nekevss.github.io" : undefined
 const nextConfig = {
   output: "export",
   reactStrictMode: true,
-  assetPrefix:assetPrefix,
+  assetPrefix: assetPrefix,
 }
 
 module.exports = nextConfig

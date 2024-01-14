@@ -1,0 +1,82 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Nekevss' Blog",
+    "feed_url": "/rss/feed.json",
+    "description": "Random blogging and things that interest me.",
+    "icon": "./images/favicon.ico",
+    "author": {
+        "name": "Kevin Ness"
+    },
+    "items": [
+        {
+            "id": "/blog/conventional-comments",
+            "url": "/blog/conventional-comments",
+            "title": "Let's talk about Conventional Comments",
+            "summary": "Conventional Comments are actually kind of nice.",
+            "date_modified": "2023-10-16T04:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness"
+            }
+        },
+        {
+            "id": "/blog/weekly-2",
+            "url": "/blog/weekly-2",
+            "title": "So it's been a while",
+            "summary": "Weekly update...a month delayed",
+            "date_modified": "2023-10-04T04:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness"
+            }
+        },
+        {
+            "id": "/blog/weekly-1",
+            "url": "/blog/weekly-1",
+            "title": "Weekly Update 1",
+            "summary": "A weekly update on things",
+            "date_modified": "2023-08-24T04:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness"
+            }
+        },
+        {
+            "id": "/blog/all-the-hello-worlds",
+            "url": "/blog/all-the-hello-worlds",
+            "title": "An Abundance of Hello World's",
+            "summary": "Test post for syntax highlighting.",
+            "date_modified": "2023-08-10T04:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness"
+            }
+        },
+        {
+            "id": "/blog/maybe-i-was-wrong",
+            "url": "/blog/maybe-i-was-wrong",
+            "title": "Call Me a Convert (Next.js Part 2)",
+            "summary": "Coping about coming to like Next.js",
+            "date_modified": "2023-08-06T04:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness"
+            }
+        },
+        {
+            "id": "/blog/next-js-exeperience",
+            "url": "/blog/next-js-exeperience",
+            "title": "Next.js Blog Experience",
+            "summary": "My experience with Next.js",
+            "date_modified": "2023-08-04T04:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness"
+            }
+        },
+        {
+            "id": "/blog/first-post",
+            "url": "/blog/first-post",
+            "title": "My First Post",
+            "summary": "Hello World, the blog post.",
+            "date_modified": "2023-08-03T04:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness"
+            }
+        }
+    ]
+}

@@ -3,7 +3,7 @@ import { unified } from "unified";
 import remarkParse from "remark-parse";
 import path from "path";
 import fs from "fs";
-import { Post, convertToMeta } from "@/lib/utils";
+import { Metadata, Post, convertToMeta } from "@/lib/utils";
 import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 import rehypeHighlight from "rehype-highlight";
@@ -17,11 +17,11 @@ const blogDirectory = path.join(workingDir, "blog");
 
 // NOTE: The below will have to be made more robust if I ever want to do folders...
 
-export function getAllBlogs() {
+export function getAllBlogs(): string[] {
     return fs.readdirSync(blogDirectory, "utf-8");
 }
 
-export function getAllBlogIds() {
+export function getAllBlogIds(): string[] {
     const blogs = getAllBlogs();
     const mdx = /.md$|mdx$/gi;
 
@@ -44,6 +44,29 @@ export function getBlogCardData(): Post[] {
             date: meta.date,
         }
     })
+}
+
+type ZippedPost = {
+    slug: string,
+    meta: Metadata,
+    content: string,
+    summary: string,
+}
+
+const zipSlug = async (slug: string): Promise<ZippedPost> => {
+    let data = await getBlogEntryBySlug(slug);
+    return {slug, meta: data.meta, content: data.content, summary: data.meta.summary}
+}
+
+export async function getBlogEntries() {
+    let blogs = getAllBlogIds();
+    
+    // Zip slug with response.
+    let blogPosts = await Promise.all(blogs.map((blog)=>{return zipSlug(blog)}))
+
+    return blogPosts.sort((a: ZippedPost, b: ZippedPost) => {
+        return +new Date(a.meta.date) - +new Date(b.meta.date);
+    }).reverse()
 }
 
 function retrieveFilePath(fileName: string): string {

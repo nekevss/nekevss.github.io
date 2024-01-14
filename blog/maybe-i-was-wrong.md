@@ -1,6 +1,7 @@
 ---
 title: Call Me a Convert (Next.js Part 2)
 date: 8/6/2023
+summary: Coping about coming to like Next.js
 ---
 
 Huh, well who would've thought that. I used Next.js again...literally right after I got finished writing a blog about

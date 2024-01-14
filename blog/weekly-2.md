@@ -1,6 +1,7 @@
 ---
 title: So it's been a while
 date: 10/4/2023
+summary: Weekly update...a month delayed
 ---
 
 So, about that commitment to writing weekly...that went a bit out the door, didn't it?
