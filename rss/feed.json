@@ -1,0 +1,91 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Nekevss' Blog",
+    "home_page_url": "https://nekevss.github.io",
+    "feed_url": "https://nekevss.github.io/rss/feed.json",
+    "description": "Random blogging and things that interest me.",
+    "icon": "./images/favicon.ico",
+    "author": {
+        "name": "Kevin Ness",
+        "url": "https://nekevss.github.io"
+    },
+    "items": [
+        {
+            "id": "https://nekevss.github.io/blog/conventional-comments",
+            "url": "https://nekevss.github.io/blog/conventional-comments",
+            "title": "Let's talk about Conventional Comments",
+            "summary": "Conventional Comments are actually kind of nice.",
+            "date_modified": "2023-10-16T00:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness",
+                "url": "https://nekevss.github.io"
+            }
+        },
+        {
+            "id": "https://nekevss.github.io/blog/weekly-2",
+            "url": "https://nekevss.github.io/blog/weekly-2",
+            "title": "So it's been a while",
+            "summary": "Weekly update...a month delayed",
+            "date_modified": "2023-10-04T00:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness",
+                "url": "https://nekevss.github.io"
+            }
+        },
+        {
+            "id": "https://nekevss.github.io/blog/weekly-1",
+            "url": "https://nekevss.github.io/blog/weekly-1",
+            "title": "Weekly Update 1",
+            "summary": "A weekly update on things",
+            "date_modified": "2023-08-24T00:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness",
+                "url": "https://nekevss.github.io"
+            }
+        },
+        {
+            "id": "https://nekevss.github.io/blog/all-the-hello-worlds",
+            "url": "https://nekevss.github.io/blog/all-the-hello-worlds",
+            "title": "An Abundance of Hello World's",
+            "summary": "Test post for syntax highlighting.",
+            "date_modified": "2023-08-10T00:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness",
+                "url": "https://nekevss.github.io"
+            }
+        },
+        {
+            "id": "https://nekevss.github.io/blog/maybe-i-was-wrong",
+            "url": "https://nekevss.github.io/blog/maybe-i-was-wrong",
+            "title": "Call Me a Convert (Next.js Part 2)",
+            "summary": "Coping about coming to like Next.js",
+            "date_modified": "2023-08-06T00:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness",
+                "url": "https://nekevss.github.io"
+            }
+        },
+        {
+            "id": "https://nekevss.github.io/blog/next-js-exeperience",
+            "url": "https://nekevss.github.io/blog/next-js-exeperience",
+            "title": "Next.js Blog Experience",
+            "summary": "My experience with Next.js",
+            "date_modified": "2023-08-04T00:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness",
+                "url": "https://nekevss.github.io"
+            }
+        },
+        {
+            "id": "https://nekevss.github.io/blog/first-post",
+            "url": "https://nekevss.github.io/blog/first-post",
+            "title": "My First Post",
+            "summary": "Hello World, the blog post.",
+            "date_modified": "2023-08-03T00:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness",
+                "url": "https://nekevss.github.io"
+            }
+        }
+    ]
+}
