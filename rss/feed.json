@@ -11,6 +11,17 @@
     },
     "items": [
         {
+            "id": "https://nekevss.github.io/blog/in-defense-of-vba",
+            "url": "https://nekevss.github.io/blog/in-defense-of-vba",
+            "title": "In Defense of VBA",
+            "summary": "A small write up about just how useful VBA can be in a constrained environment.",
+            "date_modified": "2024-01-14T00:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness",
+                "url": "https://nekevss.github.io"
+            }
+        },
+        {
             "id": "https://nekevss.github.io/blog/conventional-comments",
             "url": "https://nekevss.github.io/blog/conventional-comments",
             "title": "Let's talk about Conventional Comments",

@@ -4,7 +4,7 @@
         <title>Nekevss' Blog</title>
         <link>https://nekevss.github.io</link>
         <description>Random blogging and things that interest me.</description>
-        <lastBuildDate>Sun, 14 Jan 2024 23:12:25 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jan 2024 01:11:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,14 @@
             <link>https://nekevss.github.io</link>
         </image>
         <copyright>All rights reserved 2024, Kevin Ness</copyright>
+        <item>
+            <title><![CDATA[In Defense of VBA]]></title>
+            <link>https://nekevss.github.io/blog/in-defense-of-vba</link>
+            <guid>https://nekevss.github.io/blog/in-defense-of-vba</guid>
+            <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A small write up about just how useful VBA can be in a constrained environment.]]></description>
+            <author>nekevss@gmail.com (Kevin Ness)</author>
+        </item>
         <item>
             <title><![CDATA[Let's talk about Conventional Comments]]></title>
             <link>https://nekevss.github.io/blog/conventional-comments</link>
