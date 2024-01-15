@@ -22,7 +22,7 @@ export default function ProjectPanel() {
             <h2 className="text-2xl my-6">{"Projects:"}</h2>
             <div className="w-full h-auto min-h-20 block flex items-center flex-wrap">
                 {projects
-                    .map(item=> <ProjectCard project={item} />)
+                    .map(item=> <ProjectCard key={item.name} project={item} />)
                 }
             </div>
         </div>
