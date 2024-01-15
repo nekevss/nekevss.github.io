@@ -2,13 +2,12 @@ import Link from "next/link";
 
 const navigation = [
     { name: 'Home', href: '/'},
+    { name: 'About', href: '/about'},
     { name: 'Blog', href: '/blog'},
-    { name: 'Boa Debugger', href: 'https://nekevss.github.io/boa-debugger'},
     { name: "Github", href: "https://github.com/nekevss"}
 ]
 
 export default function Navbar() {
-
       return (
         <nav className="flex items-center justify-between flex-wrap p-6">
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">

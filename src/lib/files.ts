@@ -60,7 +60,7 @@ const zipSlug = async (slug: string): Promise<ZippedPost> => {
 
 export async function getBlogEntries() {
     let blogs = getAllBlogIds();
-    
+
     // Zip slug with response.
     let blogPosts = await Promise.all(blogs.map((blog)=>{return zipSlug(blog)}))
 
@@ -91,7 +91,20 @@ export async function getBlogEntryBySlug(id: string) {
     return {meta, content: String(rehypedContent)};
 }
 
+export async function getAboutContent(): Promise<string> {
+    const targetPath = path.join(workingDir, "about.md");
+    const {content} = matter.read(targetPath);
+
+    const rehypedContent = await unified()
+        .use(remarkParse)
+        .use(remarkRehype)
+        .use(rehypeStringify)
+        .process(content);
+
+    return String(rehypedContent)
+}
+
 
 exports.module = {
-    getAllBlogs, getAllBlogIds, getBlogEntryBySlug
+    getAllBlogs, getAllBlogIds, getBlogEntryBySlug, getBlogEntries,
 }

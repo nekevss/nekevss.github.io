@@ -9,6 +9,16 @@
     },
     "items": [
         {
+            "id": "/blog/in-defense-of-vba",
+            "url": "/blog/in-defense-of-vba",
+            "title": "In Defense of VBA",
+            "summary": "A small write up about just how useful VBA can be in a constrained environment.",
+            "date_modified": "2024-01-14T05:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness"
+            }
+        },
+        {
             "id": "/blog/conventional-comments",
             "url": "/blog/conventional-comments",
             "title": "Let's talk about Conventional Comments",
