@@ -1,12 +1,15 @@
 import * as matter from "gray-matter";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
-import path from "path";
-import fs from "fs";
 import { Metadata, Post, convertToMeta } from "@/lib/utils";
 import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 import rehypeHighlight from "rehype-highlight";
+import asm from "highlight.js/lib/languages/x86asm";
+import { common } from "lowlight";
+
+import path from "path";
+import fs from "fs";
 
 // TODO: handle `highlightjs-zig` better.
 // This is so cursed: manually changed `highlightjs-zig` to es5 module to get the below to work.
@@ -82,7 +85,7 @@ export async function getBlogEntryBySlug(id: string) {
     const rehypedContent = await unified()
         .use(remarkParse)
         .use(remarkRehype)
-        .use(rehypeHighlight, {languages: {"zig": hljsZig}})
+        .use(rehypeHighlight, {languages: {...common, "asm": asm, "zig": hljsZig}})
         .use(rehypeStringify)
         .process(content);
 

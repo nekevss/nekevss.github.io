@@ -47,6 +47,7 @@ fn calculate_with_f64(val: f64, arbitrary: f64) -> f64 {
 So how exactly does that look when we plug it into [Compiler Explorer](https://godbolt.org/)
 
 ```asm
+
 .LCPI0_0:
         .quad   0x400c000000000000
 .LCPI0_1:

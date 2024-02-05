@@ -9,6 +9,16 @@
     },
     "items": [
         {
+            "id": "/blog/the-cost-of-casting",
+            "url": "/blog/the-cost-of-casting",
+            "title": "The cost of casting.",
+            "summary": "Assembly for Dummies - Taking a targeted look into the cost of casting.",
+            "date_modified": "2024-02-04T05:00:00.000Z",
+            "author": {
+                "name": "Kevin Ness"
+            }
+        },
+        {
             "id": "/blog/in-defense-of-vba",
             "url": "/blog/in-defense-of-vba",
             "title": "In Defense of VBA",
