@@ -4,7 +4,7 @@
         <title>Nekevss' Blog</title>
         <link>https://nekevss.github.io</link>
         <description>Random blogging and things that interest me.</description>
-        <lastBuildDate>Mon, 15 Jan 2024 23:14:04 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Feb 2024 12:27:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,14 @@
             <link>https://nekevss.github.io</link>
         </image>
         <copyright>All rights reserved 2024, Kevin Ness</copyright>
+        <item>
+            <title><![CDATA[The cost of casting.]]></title>
+            <link>https://nekevss.github.io/blog/the-cost-of-casting</link>
+            <guid>https://nekevss.github.io/blog/the-cost-of-casting</guid>
+            <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Assembly for Dummies - Taking a targeted look into the cost of casting.]]></description>
+            <author>nekevss@gmail.com (Kevin Ness)</author>
+        </item>
         <item>
             <title><![CDATA[In Defense of VBA]]></title>
             <link>https://nekevss.github.io/blog/in-defense-of-vba</link>
