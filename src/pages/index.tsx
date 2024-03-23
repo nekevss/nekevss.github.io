@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div className={`flex min-h-screen flex-col items-center justify-between p-0 lg:p-24 ${inter.className}`}>
-      <div className="flex flex-col w-screen p-6 lg:w-4/6 max-w-5xl items-left justify-between font-mono text-sm">
+      <div className="flex flex-col w-screen p-6 lg:w-5/6 max-w-6xl items-left justify-between font-mono text-sm">
         <h1 className='text-4xl my-6'>{"Hi! My name's Kevin."}</h1>
         <p className='my-4 text-xl'>
           {"Welcome to my minimal portfolio site and blog."}
